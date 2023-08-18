@@ -1,19 +1,195 @@
-.banner-principal-decorativo
-  &-1
-    animation: float1 3.5s ease-in-out infinite alternate
-    position: absolute
-    top: 40%
-    right: 50%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
+.list
+  width: 100%
+  display: flex !important
+  &__item
+    &__bulletNumber
+      position: relative
+      width: 30px
+      height: 30px
+      margin-top: 0.3rem
+      margin-right: 1rem
+      text-align: center
+      border-radius: 0%
+      background-color: #FFA726
+      span
+        color: white
+        font-weight: 700
+        font-size: small
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+    &__number
+      position: relative
+      margin-right: 1rem  
+      span            
+        color: orange
+        font-size: 15pt
+        font-weight: 700
+        line-height: 1.2
+    &__icon
+      position: relative
+      width: 15px
+      margin-top: 0.30rem
+      margin-right: 0.65rem
+      img
+        width: 15px
+        vertical-align: middle
+  &__txt
+    p:first-child, h3:first-child
+      margin-top: 0px
 
+.bg-color1
+  background-color: #DBF6F9
+  padding: 20px
 
-@keyframes float1
-  0%
-    transform: translateY(20px)
+.bg-color2
+  background-color: $color-sistema-f
+  padding: 10px 20px
+  font-size: 0.8em
+  font-weight: $base-bold-font-weight
 
-  100%
-    transform: translateY(0px)
+.hr1
+  border: 1px solid #AFAFAF
+  margin-bottom: 1.5rem
+
+.hr2
+  border: 1px solid #AFAFAF
+  margin-top: 1.5rem
+
+.styleButton
+  background-color: #FFA726
+  padding: 10px 20px
+  border-radius: 10px
+  transition: all 800ms ease-out
+
+.styleButton:hover
+  background-color: #AFAFAF
+  color: #FFFFFF
+
+.tabs-c__tab--active
+  border-bottom: 4px solid #FFA726 !important
+
+.tabs-c__tab--active::before
+  width: 0
+  height: 0
+  border-left: 10px solid transparent
+  border-right: 10px solid transparent
+  border-top: 10px solid #FFA726
+  left: 50%
+  top: calc(100% + 6px)
+
+.lista-ol--cuadro__vineta
+  background-color:#FFA726
+  color: #000
+  font-weight: bolder
+
+.cajon--azul
+  background-color: #CDEDFE
+
+.cajon--azul::before
+  background-color: #7DD3E9
+
+.tarjeta--azul
+  background-color: #E8E8E8
+
+.bloque-texto-b::before
+  content: ''
+  display: block
+  background-color: #DBF6F9
+  position: absolute
+  top: 40%
+  bottom: 0
+  left: 35%
+  right: 0
+
+.tabs-b__tab--active
+  background-color: transparent
+  border-top: 5px solid #FFA726 !important
+  border-bottom: none
+
+.tabs-b__tab
+  background-color: #ECFAFC
+
+.tabs-b__tab--active
+  background-color: #FFFFFF
+
+.bloque-texto-d
+  background-color: #C4EBF5
+
+.bloque-texto-d::before
+  content: ''
+  display: block
+  box-sizing: inherit
+  width: 70px
+  height: 20px
+  background-color: #FFA726
+  background-repeat: no-repeat
+  left: 16px
+  top: 16px
+
+.bloque-texto-d::after
+  content: ''
+  display: block
+  box-sizing: inherit
+  width: 30px
+  height: 30px
+  background-color: #FFA726
+  position: relative
+  left: calc(100% - 30px)
+
+.bloque-texto-c::after
+  content: ''
+  display: block
+  box-sizing: inherit
+  width: 30px
+  height: 30px
+  background-color: #FFA726
+  position: relative
+  left: calc(100% - 30px)
+
+.banner-interno__titulo__icono
+  background-color: #FFFFFF !important
+
+.titulo-principal__numero span  
+  color: white !important
+
+.img-a 
+  display: block
+  margin: auto
+
+.img-t
+  width: auto !important
+  height: auto !important 
+
+.bloque-texto-a.color-secundario   
+  background-color: #baedf3 
+.bloque-texto-a.color-secundario::before   
+  background-color: #ecfafc
+
+.j
+  display: grid
+  place-items: center
+
+.tabs-c__tab--active
+  font-weight: bold       
+
+.bloque-texto-b i
+  color: #FFA726  
+
+.tabla-a thead
+  border-top: 0px 
+  background-color: #fff6e8
+
+.bg1
+  background-color: #ecfafc52
+  border-radius: 15px
+
+.bgt1
+  background-color: #dbf6f9
+
+.wt
+  min-width: 400px !important  
+
+.bloque-texto-c i
+  color: #FFA726  
