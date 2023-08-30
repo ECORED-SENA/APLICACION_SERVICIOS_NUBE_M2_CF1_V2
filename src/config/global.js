@@ -144,13 +144,13 @@ export default {
   },
   complementario: [
     {
-      tema: 'Tema 1',
+      tema: 'Introducción a la algoritmia',
       referencia: 'Magic Markers. (2015). ¿Qué es un algoritmo?',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=U3CGMyjzlvM',
     },
     {
-      tema: 'Tema 2',
+      tema: 'Lógica matemática',
       referencia: 'Calderón, J. P. (2015). Fundamentos de lógica matemática',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=9zYDaZhS7Ac',
@@ -198,7 +198,7 @@ export default {
         'indica que una proposición es verdadera si y solo si las proposiciones simples o compuestas que forman la proposición son verdaderas, o son falsas si y solo si ambas proposiciones son falsas.',
     },
     {
-      termino: 'Software',
+      termino: '<i>Software</i>',
       significado:
         'conjunto de programas, instrucciones y reglas informáticas para ejecutar ciertas tareas en una computadora.',
     },

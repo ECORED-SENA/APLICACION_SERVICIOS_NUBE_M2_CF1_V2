@@ -9,7 +9,7 @@
 
     p.mb-4 La lógica matemática es la disciplina que trata de métodos de razonamiento. En un nivel elemental, la lógica proporciona reglas y técnicas para determinar si es o no válido un argumento dado. El razonamiento lógico se emplea en matemáticas para demostrar teoremas; en ciencias de la computación para verificar si son o no correctos los programas; en las ciencias física y naturales, para sacar conclusiones de experimentos; y en las ciencias sociales y en la vida cotidiana, para resolver una multitud de problemas. Ciertamente se usa en forma constante el razonamiento lógico para realizar cualquier actividad. (EcuRed, s.f.)
     .row.mb-5
-      .col-6
+      .col-lg-auto
         a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=9zYDaZhS7Ac" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
@@ -157,7 +157,7 @@
       h5 Tabla 1.
       span Tabla de verdad conjunción (Y)
     .row.justify-content-center.bg1.p-4.mb-5
-      .col-lg-5(data-aos="fade-down") 
+      .col-lg-5.my-3(data-aos="fade-down") 
         .tabla-a.color-acento-contenido.text-center(data-aos="fade-left") 
           table.wt
             thead
@@ -182,9 +182,9 @@
                 td F
                 td F
                 td F
-      .col-lg-2.j(data-aos="fade-down") 
+      .col-lg-2.my-3.j(data-aos="fade-down") 
         h4 O puede ser
-      .col-lg-5(data-aos="fade-down") 
+      .col-lg-5.my-3(data-aos="fade-down") 
         .tabla-a.color-acento-contenido.text-center(data-aos="fade-left") 
           table.wt
             thead
@@ -214,7 +214,7 @@
       h5 Tabla 2.
       span Tabla de verdad conjunción (O)
     .row.justify-content-center.bg1.p-4.mb-5
-      .col-lg-5(data-aos="fade-down") 
+      .col-lg-5.my-3(data-aos="fade-down") 
         .tabla-a.color-acento-contenido.text-center(data-aos="fade-left") 
           table.wt
             thead
@@ -239,9 +239,9 @@
                 td F
                 td F
                 td F
-      .col-lg-2.j(data-aos="fade-down") 
+      .col-lg-2.j.my-3(data-aos="fade-down") 
         h4 O puede ser
-      .col-lg-5(data-aos="fade-down") 
+      .col-lg-5.my-3(data-aos="fade-down") 
         .tabla-a.color-acento-contenido.text-center(data-aos="fade-left") 
           table.wt
             thead
@@ -271,7 +271,7 @@
       h5 Tabla 3.
       span Tabla de verdad negación (no)
     .row.justify-content-center.bg1.p-4.mb-5
-      .col-lg-5(data-aos="fade-down") 
+      .col-lg-5.my-3(data-aos="fade-down") 
         .tabla-a.color-acento-contenido.text-center(data-aos="fade-left") 
           table.wt
             thead
@@ -286,10 +286,10 @@
                 td F
                 td V
 
-      .col-lg-2.j(data-aos="fade-down") 
+      .col-lg-2.my-3.j(data-aos="fade-down") 
         h4 O puede ser
 
-      .col-lg-5(data-aos="fade-down") 
+      .col-lg-5.my-3(data-aos="fade-down") 
         .tabla-a.color-acento-contenido.text-center(data-aos="fade-left") 
           table.wt
             thead
@@ -319,7 +319,7 @@
               h5 Tabla 4.
               span Tabla de verdad condicional (si... entonces)
             .row.justify-content-center.bg1.p-4.mb-5
-              .col-lg-5
+              .col-lg-5.my-3
                 .tabla-a.color-acento-contenido.text-center
                   table.wt
                     thead
@@ -344,9 +344,9 @@
                         td 0
                         td 0
                         td 1
-              .col-lg-2.j 
+              .col-lg-2.my-3.j 
                 h4 O puede ser
-              .col-lg-5
+              .col-lg-5.my-3
                 .tabla-a.color-acento-contenido.text-center
                   table.wt
                     thead
@@ -386,7 +386,7 @@
               h5 Tabla 5.
               span Tabla de verdad condicional
             .row.justify-content-center.bg1.p-4.mb-5
-              .col-lg-5
+              .col-lg-5.my-3
                 .tabla-a.color-acento-contenido.text-center
                   table.wt
                     thead
@@ -411,9 +411,9 @@
                         td F
                         td F
                         td V
-              .col-lg-2.j
+              .col-lg-2.my-3.j
                 h4 O puede ser
-              .col-lg-5
+              .col-lg-5.my-3
                 .tabla-a.color-acento-contenido.text-center
                   table.wt
                     thead
@@ -541,10 +541,10 @@
     p.mb-5 A continuación, se plantean a manera de ejemplo algunos ejercicios con su respectiva solución que permiten identificar un problema, reconocer los datos de entrada y los procesos a ser aplicados como estrategia a seguir con la utilización de la lógica proposicional en la identificación y solución de problemas.
     h4 Ejercicio 1.
     .row.mb-4
-      .col-4
+      .col-lg-4.my-3
         .bloque-texto-d.p-4
           H4.pt-5.mb-2 Se necesita personal femenino que sepa Microsoft Office o Gsuite.
-      .col-8
+      .col-lg-8.my-3
         p.mb-4 Para dar solución al enunciado anterior se realiza las siguientes actividades.
         p.mb-4 Pasos a seguir:
         .list.align-items-star
@@ -573,39 +573,37 @@
             p Determinar los casos donde se cumpla la condición y hacer la selección de las personas de acuerdo con el requerimiento.
     h4.mb-4 Solución:
     .row.align-items-center.mb-4
-      .col-lg-auto
+      .col-lg-auto.my-3
         img.img-a.img-t(src='@/assets/curso/temas/img21.png', style='max-width: 100%;')
-      .col-11
-        .hr1
+      .col-11.hr1.p-3.my-3
         .h6 Identificar el problema
-        p Se trata de buscar o contratar personal femenino que sepa utilizar Microsoft Office o Google Suite.
+        p.mb-0 Se trata de buscar o contratar personal femenino que sepa utilizar Microsoft Office o Google Suite.
     .row.align-items-center.mb-4
-      .col-lg-auto
+      .col-lg-auto.my-3
         img.img-a.img-t(src='@/assets/curso/temas/img22.png', style='max-width: 100%;')
-      .col-11
-        .hr1
+      .col-11.hr1.p-3.my-3
         .h6 Descomponer el enunciado
         p.mb-4 Descomponer en proposiciones atómicas del enunciado (cuando están separadas del contexto del problema se llaman proposiciones atómicas).
         ol
           li #[b p:] es personal femenino.
           li #[b q:] sabe utilizar el Microsoft Office.
           li #[b r:] sabe utilizar la suite de Google.
-        .hr2
+
     .row.align-items-center.mb-4
-      .col-lg-auto
+      .col-lg-auto.my-3
         img.img-a.img-t(src='@/assets/curso/temas/img23.png', style='max-width: 100%;')
-      .col-11
+      .col-11.hr1.p-3.my-3
         .h6 Determinar los casos
         p.mb-4 Determinar las relaciones lógicas de acuerdo con lo planteado en el enunciado, utilizando las proposiciones atómicas definidas en el punto anterior.
         ol
           li p ∧ (q V r).
-        .hr2
+
     .row.align-items-center.mb-5
-      .col-lg-auto
+      .col-lg-auto.my-3
         img.img-a.img-t(src='@/assets/curso/temas/img24.png', style='max-width: 100%;')
-      .col-11
-        .h6.mt-4.mb-5 Evaluar los posibles casos derivados del enunciado anterior.
-        .hr2
+      .col-11.hr1.p-3.my-3
+        .h6.mb-0 Evaluar los posibles casos derivados del enunciado anterior.
+
     h4 Ejercicio 2.
     .bloque-texto-a.color-secundario.p-4.p-md-5.mb-4
       .row.m-0.align-items-center.justify-content-between
@@ -651,12 +649,12 @@
     p.mb-5 De acuerdo con la anterior tabla, se concluye que Martha y Natalia son aptas para el trabajo, lo que permite seleccionarlas.
     h4 Ejemplo 3.
     .row.mb-4
-      .col-4
+      .col-lg-4.my-3
         .bloque-texto-c.color-secundario.p-4
           i.fas.fa-quote-right
           h4.mb-2 Sandra dice adelgazo o no hago dieta.     
 
-      .col-8
+      .col-lg-8.my-3
         p.mb-4 Para este enunciado además se propone una serie de alternativas que podrían ser válidas o no, dependiendo de la solución propuesta utilizando la lógica matemática. Las siguientes son las posibles respuestas de las cuales se deberá elegir la que se considera es real al problema planteado.
         ol.lista-ol--cuadro.mb-5
           li 
@@ -680,44 +678,45 @@
               span 5
             | #[b Hago dieta o no adelgazo.]
     h4.mb-4 Solución:
-    .row.justify-content-around.mb-4
-      .col-5
-        .row.align-items-center.mb-4
-          .col-2
+    .row.justify-content-around.align-items-start.mb-4
+      .col-lg-8
+        .row.hr1
+          .col-lg-auto.my-3
             img.img-a.img-t(src='@/assets/curso/temas/img21.png', style='max-width: 100%;')
-          .col-10
-            .hr1
+          .col.my-3
             .h6 Problema
             p Identificar la respuesta correcta al problema presentado por Sandra.
-        .row.align-items-center.mb-4
-          .col-2
+
+
+        .row.hr1
+          .col-lg-auto.my-3
             img.img-a.img-t(src='@/assets/curso/temas/img22.png', style='max-width: 100%;')
-          .col-10
-            .hr1
+          .col.my-3
             .h6 Definir
             p.mb-4 Definir las proposiciones atómicas:
             ol
               li #[b p:] adelgazo.
               li #[b q:] hago dieta.
-            .hr2
-      .col-5
-        .row.align-items-center.mb-4
-          .col-2
+
+        .row.hr1
+          .col-lg-auto.my-3
             img.img-a.img-t(src='@/assets/curso/temas/img23.png', style='max-width: 100%;')
-          .col-10
-            .hr1
+          .col.my-3
+
             .h6 Determinar
             p.mb-4 Determinar la relación lógica.
             ol
               li p V ¬ q.
-        .row.align-items-center.mb-4
-          .col-2
+
+        .row.hr1
+          .col-lg-auto.my-3
             img.img-a.img-t(src='@/assets/curso/temas/img24.png', style='max-width: 100%;')
-          .col-10
-            .hr1
+          .col.my-3
+
             .h6 Crear
             p Crear la tabla de verdad.
-            .hr2
+
+
     .row.justify-content-center.mb-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido

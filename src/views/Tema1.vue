@@ -15,7 +15,7 @@
         .titulo-sexto.color-acento-contenido
           h5 Figura 1.
           span Pasos en la algoritmia básica       
-        img.img-a.img-t(src='@/assets/curso/temas/img1.png', alt='La figura representa los pasos de la algoritmia básica; entre ellos se encuentran el análisis, el diseño, la implementación y la validación.')
+        img.img-a.img-t(src='@/assets/curso/temas/img1.svg', alt='La figura representa los pasos de la algoritmia básica; entre ellos se encuentran el análisis, el diseño, la implementación y la validación.')
     Separador 
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 1.1 Definición de algoritmo          
@@ -80,24 +80,24 @@
     figure.mb-5
       img.img-t(src='@/assets/curso/temas/img5.png', alt='La imagen ilustra un ejemplo de cómo cargar un celular. En primer lugar, se debe buscar el cargador. Después, agarrar el cargador y el celular. A continuación, enchufar el cargador al celular y conectarlo al tomacorriente. Luego, esperar a que comience a cargarse. Una vez cargado, desconectarlo y colocarlo en un lugar seguro')
     p.mb-5 Con base en los ejemplos anteriormente planteados se puede concluir que un algoritmo debe ser:
-    .row.align-items-center.mb-4
-      .col-1
-        img(src='@/assets/curso/temas/img6.png', style='max-width: 100%;')
-      .col-11
+    .row.align-items-center
+      .col-lg-1.my-3
+        img.img-a.img-t(src='@/assets/curso/temas/img6.png', style='max-width: 100%;')
+      .col-11.my-3
         .hr1
         .h6 Realizable:
-        p El proceso algorítmico debe terminar después de una cantidad finita de pasos. Se dice que un algoritmo es inaplicable cuando se ejecuta con un conjunto de datos iniciales y el proceso resulta infinito o durante la ejecución se encuentra con un obstáculo insuperable sin arrojar un resultado.
-    .row.align-items-center.mb-4
-      .col-1
-        img(src='@/assets/curso/temas/img7.png', style='max-width: 100%;')
-      .col-11
+        p.mb-0 El proceso algorítmico debe terminar después de una cantidad finita de pasos. Se dice que un algoritmo es inaplicable cuando se ejecuta con un conjunto de datos iniciales y el proceso resulta infinito o durante la ejecución se encuentra con un obstáculo insuperable sin arrojar un resultado.
+    .row.align-items-center
+      .col-lg-1.my-3
+        img.img-a.img-t(src='@/assets/curso/temas/img7.png', style='max-width: 100%;')
+      .col-11.my-3
         .hr1
         .h6 Comprensible:
-        p Debe ser claro lo que hace, de forma que quien ejecute los pasos (ser humano o máquina) sepa qué, cómo y cuándo hacerlo. Debe existir un procedimiento que determine el proceso de ejecución.
+        p.mb-0 Debe ser claro lo que hace, de forma que quien ejecute los pasos (ser humano o máquina) sepa qué, cómo y cuándo hacerlo. Debe existir un procedimiento que determine el proceso de ejecución.
     .row.align-items-center.mb-5
-      .col-1
-        img(src='@/assets/curso/temas/img8.png', style='max-width: 100%;')
-      .col-11
+      .col-lg-1.my-3
+        img.img-a.img-t(src='@/assets/curso/temas/img8.png', style='max-width: 100%;')
+      .col-11.my-3
         .hr1
         .h6 Preciso:
         p El orden de ejecución de las instrucciones debe estar perfectamente indicado. Cuando se ejecuta varias veces, con los mismos datos iniciales, el resultado debe ser el mismo siempre. La precisión implica determinismo. (López, 2009, p. 22)
@@ -137,7 +137,7 @@
             figure
               img(src='@/assets/curso/temas/img10.png', alt='Texto que describa la imagen')
           .col-12.col-lg-7.mt-4.mt-lg-0
-            h4 Formular el problema.
+            h4 Formular el problema
             p.mb-4 A continuación, algunas preguntas previas a la formulación del problema:
             .list.align-items-star
               .list__item
@@ -180,7 +180,7 @@
             figure
               img(src='@/assets/curso/temas/img11.png', alt='Texto que describa la imagen')
           .col-12.col-lg-7.mt-4.mt-lg-0
-            h4 Precisar elementos de entrada.
+            h4 Precisar elementos de entrada
             p.mb-4 Otro punto importante en la fase de análisis del problema es determinar cuál es la información disponible, por lo tanto:
             .list.align-items-star
               .list__item
@@ -225,7 +225,7 @@
             figure
               img(src='@/assets/curso/temas/img12.png', alt='Texto que describa la imagen')
           .col-12.col-lg-7.mt-4.mt-lg-0
-            h4 Precisar resultados esperados.
+            h4 Precisar resultados esperados
             p.mb-4 Para determinar con claridad cuál es el resultado final esperado (o producto) que se quiere obtener es necesario determinar o definir qué resultados se solicitan y, en qué tipo o formato deben estar (mostrados en pantalla, diagramación, orden, etc.). Para ello, es importante tener en cuenta:
             .list.align-items-star
               .list__item
