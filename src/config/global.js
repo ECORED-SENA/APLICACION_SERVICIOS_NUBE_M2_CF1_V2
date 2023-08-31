@@ -217,8 +217,7 @@ export default {
     {
       referencia:
         'López, J., C. (2009). Educación básica algoritmos y programación. Guía para docentes. Segunda edición. Fundación Gabriel Piedrahita Uribe, www.eduteka.org',
-      link:
-        'https://libros.metabiblioteca.org/bitstream/001/169/8/AlgoritmosProgramacion.pdf',
+      link: 'http://www.eduteka.org/pdfdir/AlgoritmosProgramacion.pdf',
     },
     {
       referencia:

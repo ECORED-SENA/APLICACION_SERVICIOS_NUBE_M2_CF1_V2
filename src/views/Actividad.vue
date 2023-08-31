@@ -11,11 +11,11 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Introducción a la algoritmia
-        p.mb-4 Comprender sobre la algoritmia y la lógica matemática, destacando su relevancia en la programación y en la resolución de problemas en diversos campos.
+        p.mb-4 Comprender sobre la algoritmia y la lógica matemática, destacando su relevancia en la programación y en la resolución de problemas en diversos campos. 
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Falso o Verdadero
+              p.fw-bold.mb-0 A continuación, encontrará una serie de afirmaciones relacionadas con el estudio del material de formación de introducción a la algoritmia. Léalas atentamente y responda si es verdadera o falsa para comprobar su aprendizaje.
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
                 span Realizar
